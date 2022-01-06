@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tonghieutichthuong</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function cong(a,b) {
+			return a + b;
+		}
+
+		function tru(a,b) {
+			return a - b;
+		}
+
+		function nhan(a,b) {
+			return a * b;
+		}
+
+		function chia(a,b) {
+			return a / b;
+		}
+
+		var a=prompt('Nhập số A')
+		var b=prompt('Nhập số B')
+		a=eval(a)
+		b=eval(b)
+		document.write('Tổng A và B: ' +cong(a,b) + '<br>')
+		console.log('Tổng A và B: ' +cong(a,b) )
+		document.write('Hieu A va B:' + tru(a,b) + '<br/>')
+		console.log('Hieu A va B:' + tru(a,b))
+		document.write('Tich A và B:' + nhan(a,b) + '<br/>')
+		console.log('Tich A và B:' + nhan(a,b))
+		document.write('Thương A và B:' + chia(a,b) + '<br/>')
+		console.log('Thương A và B:' + chia(a,b))
+
+	</script>
+</body>
+</html>
